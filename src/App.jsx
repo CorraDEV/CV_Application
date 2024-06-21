@@ -9,8 +9,11 @@ import WorkExperience from './components/WorkExperience'
 function App() {
   return (    
     <>
+      <h1>General Information</h1>
       <GenInfo></GenInfo>    
+      <h1>Education</h1>
       <Education></Education>
+      <h1>Work Experience</h1>
       <WorkExperience></WorkExperience>
     </>
   )
