@@ -30,9 +30,8 @@ export default function App() {
   
   return (    
     <>
-      <h1>General Information</h1>
-      {genInfoList}
-      {genInfoList.length === 0 ? <button onClick={addGenInfo}>+</button> : null}
+      <h1>General Information</h1>      
+      {genInfoList.length === 0 ? <button onClick={addGenInfo}>+</button> : genInfoList}
       <h1>Education</h1>
       {educationList}
       <button onClick={addEducation}>+</button>    
